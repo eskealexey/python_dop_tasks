@@ -5,9 +5,10 @@
 
 def factor(n):
     if n == 0:
-        return 1   # факториал нуля всегда равен единице — 0! = 1;
+        return 1  # факториал нуля всегда равен единице — 0! = 1;
     if n == 1:
         return n
     return factor(n - 1) * n
 
-print(factor(1))
+
+print(factor(6))
