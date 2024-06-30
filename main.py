@@ -107,7 +107,6 @@ sum_balans(list_data)
 frame2 = Frame(root, padx=10, pady=10, border=2, relief=RAISED)
 frame2.pack(fill=X)
 
-
 graf_btn = Button(frame2, text="Показать график Прихода", command=lambda: graf_view(list_data, 'debet'))
 graf_btn.grid(row=3, column=2)
 
@@ -116,3 +115,7 @@ graf_btn2.grid(row=3, column=3)
 
 root.mainloop()
 
+# Испоьзовались источники:
+# Книга "Знакомство с Python" Ден Бейдер
+# Сайт https://metanit.com/python/tkinter/ - Руководство по Tkinter
+# Devpractice Team. Библиотека Matplotlib. - devpractice.ru. 2019. - 100 с.: ил.
